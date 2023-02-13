@@ -50,24 +50,24 @@
     }
 
     .always-margins {
-        margin: 0px 100px;
+        margin: 0px 100px 150px 100px;
     }
 
     @media screen and (max-width: 1100px) {
         .always-margins {
-            margin: 0 40px;
+            margin: 0 40px 150px 40px;
         }
     }
 
     @media screen and (max-width: 800px) {
         .always-margins {
-            margin: 0 30px;
+            margin: 0 30px 150px 30px;
         }
     }
 
     @media screen and (max-width: 500px) {
         .always-margins {
-            margin: 0 20px;
+            margin: 0 20px 150px 20px;
         }
     }
 

@@ -1,11 +1,16 @@
 import axios from "axios";
 
 export async function addSubscriber(firstName, email) {
-    const url = "https://api.convertkit.com/v3/forms/<form_id>/subscribe    ";
+    try {
+        const url = "https://api.convertkit.com/v3/forms/<form_id>/subscribe    ";
 
-    const res = await axios.post(url, { firstName, email });
-    const { subscription } = res.data;
-    return subscription;
+        const res = await axios.post(url, { firstName, email });
+        // const { subscription } = res.data;
+        return true;
+    } catch (err) {
+        console.log(err);
+        return false;
+    }
 }
 
 export async function getForms() {
