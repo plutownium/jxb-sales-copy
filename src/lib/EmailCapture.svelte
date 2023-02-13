@@ -4,7 +4,7 @@
 
 <div class="flex flex-col centering">
     <h2>Give us your <span class="underline">best</span> email so we can send you our FREE report!</h2>
-    <div class="flex h-12 input-container">
+    <div class="flex flex-col-on-mobile input-container debug1">
         <div class="m-2">
             <input class="p-3" placeholder="Your Best Email" type="text" />
         </div>
@@ -39,13 +39,21 @@
         flex-direction: column;
     }
 
+    @media screen and (max-width: 800px) {
+        .flex-col-on-mobile {
+            flex-direction: column;
+        }
+    }
+
     .h-12 {
         height: 36px;
     }
 
     input {
         border-radius: 5px;
-        border: 2px solid #bbb;
+        border: 3px solid #ffd300;
+        height: 24px;
+        font-size: 18px;
     }
 
     .input-container {
@@ -58,5 +66,9 @@
 
     .p-3 {
         padding: 8px;
+    }
+
+    .underline {
+        text-decoration: underline;
     }
 </style>
