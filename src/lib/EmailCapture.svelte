@@ -1,4 +1,5 @@
 <script>
+    import { goto } from "$app/navigation";
     import { addSubscriber } from "../api/ConvertKit";
     let name = "";
     let email = "";
@@ -23,6 +24,7 @@
         const success = await addSubscriber(name, email);
         if (success) {
             // redirect to product lander
+            goto("/change-your-life");
         } else {
             error = "Something went wrong!";
         }
