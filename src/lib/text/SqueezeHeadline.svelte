@@ -2,7 +2,7 @@
 </script>
 
 <h1 class="red-text headline-font center-text margins">
-	Get A FREE Inside Look At The Daily Workday of Three Software Developers...
+	Get An Inside Look At The Daily Workday of Three Software Developers For FREE Right Now...
 </h1>
 
 <style>

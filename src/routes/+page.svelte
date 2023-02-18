@@ -28,7 +28,7 @@
 			</p>
 		</BlueBox>
 		<WhiteBox>
-			<div class="h-24 center-stuff">
+			<div class="h-24 center-stuff w-full-and-center ">
 				<AttentionGrabber bolded="PLEASE NOTE:"
 					><span class="">You <span class="underline">won't</span> find this on YouTube!</span
 					></AttentionGrabber
@@ -44,6 +44,10 @@
 </main>
 
 <style>
+	.w-full-and-center {
+		width: 100%;
+	}
+
 	.flex-center-spacer {
 		width: 100%;
 		display: flex;
