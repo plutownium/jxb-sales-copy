@@ -2,22 +2,22 @@
 </script>
 
 <h1 class="red-text headline-font center-text">
-    <span class="underline">Get An Inside Look at the Daily Workday of Three Software Developers...</span>
+	Get An Inside Look At The Daily Workday of Three Software Developers...
 </h1>
 
 <style>
-    .center-text {
-        text-align: center;
-    }
-    .headline-font {
-        font-size: 2em;
-    }
+	.center-text {
+		text-align: center;
+	}
+	.headline-font {
+		font-size: 2em;
+	}
 
-    .red-text {
-        color: #d44445;
-    }
+	.red-text {
+		color: #d44445;
+	}
 
-    .underline {
-        text-decoration: underline;
-    }
+	.underline {
+		text-decoration: underline;
+	}
 </style>
