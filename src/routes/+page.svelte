@@ -45,7 +45,6 @@
 
 <style>
 	.flex-center-spacer {
-		border: 2px solid salmon;
 		width: 100%;
 		display: flex;
 		justify-content: center;
@@ -59,7 +58,7 @@
 	}
 
 	.always-margins {
-		margin: 0px 100px 150px 100px;
+		margin: 0px 180px 150px 180px;
 	}
 
 	@media screen and (max-width: 1100px) {

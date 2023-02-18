@@ -45,11 +45,11 @@
 	}
 </script>
 
-<div class="flex flex-col centering debug1">
+<div class="flex flex-col centering">
 	<h2 class="text-center">
-		Give us your <span class="underline">best</span> email <br />so we can send you our FREE report!
+		Give us your <span class="underline">best</span> email so we can send you our FREE report!
 	</h2>
-	<div class="flex flex-col-on-mobile input-container debug1">
+	<div class="flex flex-col-on-mobile input-container">
 		<div class="m-2">
 			<input
 				bind:value={name}
