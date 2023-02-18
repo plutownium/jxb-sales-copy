@@ -13,7 +13,7 @@
 </script>
 
 <main class="always-margins">
-	<div class="gray-bg inline-block">
+	<div class="gray-bg inline-block top-page-margin">
 		<AttentionGrabber bolded="ATTENTION:">
 			<span
 				>Men looking to start a career, get a <span class="italics">6 figure WFH role</span>, and/or
@@ -372,6 +372,9 @@
 </main>
 
 <style>
+	.top-page-margin {
+		margin-top: 50px;
+	}
 	.sales-centering {
 		width: 100%;
 		display: flex;
